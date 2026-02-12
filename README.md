@@ -34,7 +34,7 @@ O AWS Trusted Advisor identifica instâncias EC2 ociosas, volumes de armazenamen
 
 Nome da ferramenta: S3 Intelligent-Tiering
 
-Foco da ferramenta: Reduzição automática dos custos de armazenamento ao mover dados entre camadas mais baratas conforme o padrão de acesso.
+Foco da ferramenta: Redução automática dos custos de armazenamento ao mover dados entre camadas mais baratas conforme o padrão de acesso.
 
 Descrição do caso de uso:
 A ferramenta divide os dados em camadas diferentes conforme a frequência que esses dados são acessados. Os mais acessados ficam em "Frequent Acess" e os menos acessados em "Deep Archive Acess". A economia é gerada pois o usuário paga menos quando os dados deixam de ser acessados, evita superdimensionamento de armazenamento. Essa ferramenta é ideal para dados com padrão de acesso imprevisível.
